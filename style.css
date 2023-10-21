@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    
+}
+.global nav {
+    background-color: black;
+    height: 100px;
+}
+.global nav ul{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.global nav ul li{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: inline-block;
+    padding: 35px;
+}
+
+
+.global nav ul li a{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: white;
+    /* font-weight: bold; */
+    text-decoration-line: none;
+}
+div.hero{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.lower ul{
+    background-color: white;
+    padding-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    list-style-type: none;
+}
+div.lower ul li{
+    color: black;
+    display: inline-block;
+    padding: 32px;
+}
+div.lower ul li img{
+    align-items: center;
+}
+div.lower ul li {
+    text-align: center;
+}
+div.lower ul li p{
+    color: red;
+}
+
+div section{
+    margin: 150px;
+    text-align: center;
+}
+div section p.hero-1{
+    color: gray;
+    font-weight: 200;
+    padding: 10px;
+}
+div section h2.hero-2{
+    padding: 10px;
+}
+div section h1.hero-3{
+   
+    
+    width: 400px;
+    height: 58px;
+    padding-left: 37%;
+    
+    background: linear-gradient(
+        180deg,
+        rgb(44, 162, 180) 0%,
+        rgb(85, 152, 222) 24%,
+        rgb(127, 135, 255) 45%,
+        rgb(246, 90, 173) 76%,
+        rgb(236, 61, 67) 100%
+    );
+        -webkit-background-clip: text !important;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-family: "SF Pro Display-Bold", Helvetica;
+        font-weight: 700;
+        color: transparent;
+        font-size: 48px;
+        text-align: center;
+        letter-spacing: -0.14px;
+        line-height: 52px;
+        white-space: nowrap;
+      
+}
+div section p.hero-4{
+    padding: 10px;
+}
+div section p.hero-5{
+    padding: 10px;
+    
+}
